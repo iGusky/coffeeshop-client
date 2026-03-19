@@ -1,0 +1,21 @@
+{
+    "projectColors.mainColor": "#ce8912",
+    "window.title": "coffeeshopastro",
+    "workbench.colorCustomizations": {
+        "statusBarItem.warningBackground": "#ce8912",
+        "statusBarItem.warningForeground": "#000000",
+        "statusBarItem.warningHoverBackground": "#ce8912",
+        "statusBarItem.warningHoverForeground": "#00000090",
+        "statusBarItem.remoteBackground": "#ce8912",
+        "statusBarItem.remoteForeground": "#000000",
+        "statusBarItem.remoteHoverBackground": "#ce8912",
+        "statusBarItem.remoteHoverForeground": "#00000090"
+    },
+    "projectColors.name": "coffeeshopastro",
+    "projectColors.isActivityBarColored": false,
+    "projectColors.isTitleBarColored": false,
+    "projectColors.isStatusBarColored": false,
+    "projectColors.isProjectNameColored": true,
+    "projectColors.isActiveItemsColored": false,
+    "projectColors.setWindowTitle": true
+}
