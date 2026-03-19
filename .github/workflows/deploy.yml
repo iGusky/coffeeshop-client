@@ -16,7 +16,7 @@ jobs:
       content: read
       packages: write
 
-    step:
+    steps:
       - name: Checkout code
         uses: actions/checkout@v4
 
