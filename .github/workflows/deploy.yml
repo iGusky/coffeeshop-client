@@ -13,7 +13,7 @@ jobs:
     name: 🐳 Build & Push to GHCR
     runs-on: ubuntu-latest
     permissions:
-      content: read
+      contents: read
       packages: write
 
     steps:
@@ -40,6 +40,6 @@ jobs:
           context: .
           push: true
           tags: ${{ steps.meta.outputs.tags }}
-          labels: ${{ steps.meta.outpits.labels }}
+          labels: ${{ steps.meta.outputs.labels }}
           cache-from: type=gha
           cache-to: type=gha,mode=max
