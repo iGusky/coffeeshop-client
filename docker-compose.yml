@@ -1,0 +1,7 @@
+services:
+  coffeeshop-client:
+    image: ghcr.io/igusky/coffeeshop-client:latest
+    container_name: coffeeshop-client
+    restart: unless-stopped
+    ports:
+      - "8080:80"
