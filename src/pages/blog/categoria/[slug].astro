@@ -2,7 +2,8 @@
 import PostCard from '@/components/blog/PostCard.astro'
 import Layout from '@/layouts/Layout.astro'
 import { PostsSchema } from '@/types'
-import {CategoriesSlugSchema, CategorySchema} from '@/types'
+import { CategoriesSlugSchema, CategorySchema } from '@/types'
+
 // la función getStaticPaths se manda a llamar automaticamente.
 export async function getStaticPaths() {
     const res = await fetch(`${import.meta.env.API_URL}/categories?_fields=slug`)

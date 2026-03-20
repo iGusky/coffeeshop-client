@@ -1,6 +1,12 @@
 # BUILD STAGE
-FROM node:20-alpine AS builder
+FROM node:22.12.0-alpine AS builder
 WORKDIR /app
+
+ARG API_URL
+ARG HOME_URL
+
+ENV API_URL=$API_URL
+ENV HOME_URL=$HOME_URL
 
 COPY package*.json ./
 RUN npm ci

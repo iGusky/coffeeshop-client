@@ -10,8 +10,9 @@
     "host": "astro dev --host"
   },
   "dependencies": {
+    "@astrojs/node": "^10.0.3",
     "@tailwindcss/vite": "^4.2.1",
-    "astro": "^5.17.1",
+    "astro": "^6.0.7",
     "leaflet": "^1.9.4",
     "notyf": "^3.10.0",
     "photoswipe": "^5.4.4",
